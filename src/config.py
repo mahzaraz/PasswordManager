@@ -1,0 +1,11 @@
+# File names
+MASTER_KEY_FILE = '.master.key'
+ENCRYPTION_KEY_FILE = '.encryption.key'
+DATABASE_FILE = '.passwords.db'
+
+# Security settings
+MIN_PASSWORD_LENGTH = 8
+MAX_DESCRIPTION_LENGTH = 500
+MAX_LOGIN_ATTEMPTS = 3
+HASH_ITERATIONS = 100000
+DB_TIMEOUT = 30 
