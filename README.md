@@ -13,14 +13,6 @@ FEATURES
 * Hidden file storage
 * SQL injection prevention
 
-REQUIREMENTS
------------
-* Python 3.7+
-* Required packages:
-  - cryptography>=41.0.7
-  - cffi>=1.16.0
-  - pycparser>=2.21
-
 INSTALLATION
 -----------
 1. Clone the repository:
@@ -52,22 +44,6 @@ SECURITY FEATURES
 * Input validation and sanitization
 * SQL injection prevention
 * Secure password history tracking
-
-PROJECT STRUCTURE
-----------------
-password_manager/
-│
-├── src/
-│   ├── config.py        # Configuration settings
-│   ├── exceptions.py    # Custom exceptions
-│   ├── utils.py         # Utility functions
-│   ├── encryption.py    # Encryption operations
-│   └── database/        # Database operations
-│
-├── password_manager.py  # Main application
-├── password_operations.py # User operations
-├── requirements.txt     # Dependencies
-└── README.txt          # Documentation
 
 BEST PRACTICES
 -------------
